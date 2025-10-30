@@ -33,7 +33,7 @@ It demonstrates how to securely manage products, carts, and Apple Pay transactio
 
 2. **Merchant ID**  
    Make sure your merchant ID is added:  
-   `merchant.com.sahil.sweatershoppingapp`
+   `merchant.com.name.xyz`
 
 
 ##  How to Run
