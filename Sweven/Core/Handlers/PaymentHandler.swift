@@ -4,7 +4,7 @@
 //
 //  Created by Sahil ChowKekar on 10/30/25.
 //
-
+ 
 
 import PassKit
 
@@ -16,6 +16,27 @@ class PaymentHandler: NSObject {
     var completionHandler: PaymentCompletionHandler?
 
     static let supportedNetworks: [PKPaymentNetwork] = [.visa, .masterCard]
+    
+    func shippingmethodCalculator() -> [PKShippingMethod] {
+        let today = Date()
+        let calendar = Calendar.current
+        
+        let shippingStart = calendar.date(byAdding: .day, value: 5, to: today)
+        let shippingEnd = calendar.date(byAdding: .day, value: 10, to: today)
+        
+        if let shippingEnd, let shippingStart {
+            let startComponents = calendar.dateComponents([.calendar, .year, .month, .day], from: shippingStart)
+            let endComponents = calendar.dateComponents([.calendar, .year, .month, .day], from: shippingEnd)
+            
+            let shippingDelivery = PKShippingMethod(label: "Delivery", amount: NSDecimalNumber(string:"0.00"))
+            shippingDelivery.dateComponentsRange = PKDateComponentsRange(start: startComponents, end: endComponents)
+            shippingDelivery.detail = "Sweater sent to your address"
+            shippingDelivery.identifier = "DELIVERY"
+            
+            return [shippingDelivery]
+        }
+        return []
+    }
 
     func startPayment(products: [Product], total: Int, completion: @escaping PaymentCompletionHandler) {
         completionHandler = completion
@@ -26,6 +47,9 @@ class PaymentHandler: NSObject {
         paymentRequest.currencyCode = "USD"
         paymentRequest.supportedNetworks = Self.supportedNetworks
         paymentRequest.merchantCapabilities = .threeDSecure
+        paymentRequest.shippingType = .delivery
+        paymentRequest.shippingMethods =  shippingmethodCalculator()
+        paymentRequest.requiredShippingContactFields = [.name, .postalAddress]
 
         products.forEach { product in
             let item = PKPaymentSummaryItem(label: product.name, amount: NSDecimalNumber(string: "\(product.price).00"))
