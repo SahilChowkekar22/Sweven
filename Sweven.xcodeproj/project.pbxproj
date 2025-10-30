@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB68EFF2E8583FC00D549CD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB68EFE2E8583FC00D549CD /* FirebaseAnalytics */; };
+		5AB68F012E8583FC00D549CD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB68F002E8583FC00D549CD /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACB6AF02E7AF47000E7BF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB6ADA2E7AF46B00E7BF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB6AE12E7AF46B00E7BF1B;
+			remoteInfo = Sweven;
+		};
+		5ACB6AFA2E7AF47000E7BF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB6ADA2E7AF46B00E7BF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB6AE12E7AF46B00E7BF1B;
+			remoteInfo = Sweven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ACB6AE22E7AF46B00E7BF1B /* Sweven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB6AEF2E7AF47000E7BF1B /* SwevenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwevenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB6AF92E7AF47000E7BF1B /* SwevenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwevenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5AB68F052E85892E00D549CD /* Exceptions for "Sweven" folder in "Sweven" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5ACB6AE12E7AF46B00E7BF1B /* Sweven */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5ACB6AE42E7AF46B00E7BF1B /* Sweven */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AB68F052E85892E00D549CD /* Exceptions for "Sweven" folder in "Sweven" target */,
+			);
+			path = Sweven;
+			sourceTree = "<group>";
+		};
+		5ACB6AF22E7AF47000E7BF1B /* SwevenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwevenTests;
+			sourceTree = "<group>";
+		};
+		5ACB6AFC2E7AF47000E7BF1B /* SwevenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwevenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACB6ADF2E7AF46B00E7BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB68F012E8583FC00D549CD /* FirebaseMessaging in Frameworks */,
+				5AB68EFF2E8583FC00D549CD /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AEC2E7AF47000E7BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AF62E7AF47000E7BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACB6AD92E7AF46B00E7BF1B = {
+			isa = PBXGroup;
+			children = (
+				5ACB6AE42E7AF46B00E7BF1B /* Sweven */,
+				5ACB6AF22E7AF47000E7BF1B /* SwevenTests */,
+				5ACB6AFC2E7AF47000E7BF1B /* SwevenUITests */,
+				5ACB6AE32E7AF46B00E7BF1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACB6AE32E7AF46B00E7BF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB6AE22E7AF46B00E7BF1B /* Sweven.app */,
+				5ACB6AEF2E7AF47000E7BF1B /* SwevenTests.xctest */,
+				5ACB6AF92E7AF47000E7BF1B /* SwevenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACB6AE12E7AF46B00E7BF1B /* Sweven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB6B032E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "Sweven" */;
+			buildPhases = (
+				5ACB6ADE2E7AF46B00E7BF1B /* Sources */,
+				5ACB6ADF2E7AF46B00E7BF1B /* Frameworks */,
+				5ACB6AE02E7AF46B00E7BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5ACB6AE42E7AF46B00E7BF1B /* Sweven */,
+			);
+			name = Sweven;
+			packageProductDependencies = (
+				5AB68EFE2E8583FC00D549CD /* FirebaseAnalytics */,
+				5AB68F002E8583FC00D549CD /* FirebaseMessaging */,
+			);
+			productName = Sweven;
+			productReference = 5ACB6AE22E7AF46B00E7BF1B /* Sweven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACB6AEE2E7AF47000E7BF1B /* SwevenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB6B062E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "SwevenTests" */;
+			buildPhases = (
+				5ACB6AEB2E7AF47000E7BF1B /* Sources */,
+				5ACB6AEC2E7AF47000E7BF1B /* Frameworks */,
+				5ACB6AED2E7AF47000E7BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB6AF12E7AF47000E7BF1B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ACB6AF22E7AF47000E7BF1B /* SwevenTests */,
+			);
+			name = SwevenTests;
+			packageProductDependencies = (
+			);
+			productName = SwevenTests;
+			productReference = 5ACB6AEF2E7AF47000E7BF1B /* SwevenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ACB6AF82E7AF47000E7BF1B /* SwevenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB6B092E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "SwevenUITests" */;
+			buildPhases = (
+				5ACB6AF52E7AF47000E7BF1B /* Sources */,
+				5ACB6AF62E7AF47000E7BF1B /* Frameworks */,
+				5ACB6AF72E7AF47000E7BF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB6AFB2E7AF47000E7BF1B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ACB6AFC2E7AF47000E7BF1B /* SwevenUITests */,
+			);
+			name = SwevenUITests;
+			packageProductDependencies = (
+			);
+			productName = SwevenUITests;
+			productReference = 5ACB6AF92E7AF47000E7BF1B /* SwevenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACB6ADA2E7AF46B00E7BF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					5ACB6AE12E7AF46B00E7BF1B = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					5ACB6AEE2E7AF47000E7BF1B = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 5ACB6AE12E7AF46B00E7BF1B;
+					};
+					5ACB6AF82E7AF47000E7BF1B = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 5ACB6AE12E7AF46B00E7BF1B;
+					};
+				};
+			};
+			buildConfigurationList = 5ACB6ADD2E7AF46B00E7BF1B /* Build configuration list for PBXProject "Sweven" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACB6AD92E7AF46B00E7BF1B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5AB68EFD2E8583FC00D549CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5ACB6AE32E7AF46B00E7BF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACB6AE12E7AF46B00E7BF1B /* Sweven */,
+				5ACB6AEE2E7AF47000E7BF1B /* SwevenTests */,
+				5ACB6AF82E7AF47000E7BF1B /* SwevenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACB6AE02E7AF46B00E7BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AED2E7AF47000E7BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AF72E7AF47000E7BF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACB6ADE2E7AF46B00E7BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AEB2E7AF47000E7BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB6AF52E7AF47000E7BF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACB6AF12E7AF47000E7BF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB6AE12E7AF46B00E7BF1B /* Sweven */;
+			targetProxy = 5ACB6AF02E7AF47000E7BF1B /* PBXContainerItemProxy */;
+		};
+		5ACB6AFB2E7AF47000E7BF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB6AE12E7AF46B00E7BF1B /* Sweven */;
+			targetProxy = 5ACB6AFA2E7AF47000E7BF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ACB6B012E7AF47000E7BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9YG8Q7GPBK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ACB6B022E7AF47000E7BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9YG8Q7GPBK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACB6B042E7AF47000E7BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sweven/Sweven.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YG8Q7GPBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sweven/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.Sweven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACB6B052E7AF47000E7BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sweven/Sweven.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YG8Q7GPBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sweven/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.Sweven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ACB6B072E7AF47000E7BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.SwevenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweven";
+			};
+			name = Debug;
+		};
+		5ACB6B082E7AF47000E7BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.SwevenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sweven";
+			};
+			name = Release;
+		};
+		5ACB6B0A2E7AF47000E7BF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.SwevenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sweven;
+			};
+			name = Debug;
+		};
+		5ACB6B0B2E7AF47000E7BF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.SwevenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sweven;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACB6ADD2E7AF46B00E7BF1B /* Build configuration list for PBXProject "Sweven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB6B012E7AF47000E7BF1B /* Debug */,
+				5ACB6B022E7AF47000E7BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB6B032E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "Sweven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB6B042E7AF47000E7BF1B /* Debug */,
+				5ACB6B052E7AF47000E7BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB6B062E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "SwevenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB6B072E7AF47000E7BF1B /* Debug */,
+				5ACB6B082E7AF47000E7BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB6B092E7AF47000E7BF1B /* Build configuration list for PBXNativeTarget "SwevenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB6B0A2E7AF47000E7BF1B /* Debug */,
+				5ACB6B0B2E7AF47000E7BF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AB68EFD2E8583FC00D549CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AB68EFE2E8583FC00D549CD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB68EFD2E8583FC00D549CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5AB68F002E8583FC00D549CD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB68EFD2E8583FC00D549CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5ACB6ADA2E7AF46B00E7BF1B /* Project object */;
+}
